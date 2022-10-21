@@ -12,5 +12,6 @@ public class setupPC {
     }
     public void setProcesador(Procesador procesador) {
         this.procesador = procesador;
+
     }
 }

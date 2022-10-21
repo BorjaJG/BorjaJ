@@ -12,6 +12,7 @@ public class Discoduro {
      * modificar eliminar añadir
      */
 
+
     public void setId(Integer id) {
         this.id = id;
     }
@@ -24,6 +25,7 @@ public class Discoduro {
     public void setMarca(String marca) {
         this.marca = marca;
     }
+
     public String getFabricante() {
         return fabricante;
     }
@@ -31,4 +33,9 @@ public class Discoduro {
     public void setFabricante(String fabricante) {
         this.fabricante = fabricante;
     }
+
+    public Integer getId() {
+        return id;
+    }
 }
+

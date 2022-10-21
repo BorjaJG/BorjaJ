@@ -35,4 +35,5 @@ public class Funetedealimentacion {
     public void setFabricante(String fabricante) {
         this.fabricante = fabricante;
     }
+
 }

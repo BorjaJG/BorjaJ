@@ -2,14 +2,14 @@ package COMbjg.pc;
 
 public class Placabase {
     private Integer id;
-    private Integer marca;
+    private String marca;
     private String fabricante;
 
     /**
      * modificar eliminar añadir
      */
 
-    public Integer getId(){
+    public Integer getId() {
         return id;
     }
 
@@ -17,15 +17,20 @@ public class Placabase {
         this.id = id;
     }
 
-    public Integer getMarca(){
+    public String getMarca() {
         return marca;
     }
 
-    public void setMarca(Integer marca) {
+    public void setMarca(String marca) {
         this.marca = marca;
     }
 
-    private void setFabricante(String fabricante) {
+    public String getFabricante() {
+
+        return fabricante;
+    }
+
+    public void setFabricante(String fabricante) {
         this.fabricante = fabricante;
     }
 
