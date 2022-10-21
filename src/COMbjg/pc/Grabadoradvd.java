@@ -7,7 +7,7 @@ public class Grabadoradvd {
 
     private static Integer id;
     private static String marca;
-    private String fabricante;
+    private static String fabricante;
 
     /**
      * modificar eliminar añadir
@@ -25,14 +25,14 @@ public class Grabadoradvd {
         return marca;
     }
 
-    public static void setMarca(String marca) {
+    public void setMarca(String marca) {
         this.marca = marca;
     }
     public static String getFabricante() {
         return fabricante;
     }
 
-    public static void setFabricante(String fabricante) {
+    public void setFabricante(String fabricante) {
         this.fabricante = fabricante;
     }
 }
